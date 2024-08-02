@@ -1,0 +1,103 @@
+@font-face {
+    font-family: "Righteous-Regular";
+    src: url("../fonts/Righteous/Righteous-Regular.ttf");
+}
+
+@font-face {
+    font-family: "Urbanist-Medium";
+    src: url("../fonts/Urbanist/static/Urbanist-Medium.ttf");
+}
+
+@font-face {
+    font-family: "Inter_18pt-Bold";
+    src: url("../fonts/Inter/static/Inter_18pt-Bold.ttf");
+}
+
+.main_rasm {
+    width: 1920px;
+    height: 850px;
+    background-image: url(../images/Rectangle\ 12rasm.png);
+}
+
+.main_text {
+    width: 529px;
+    height: 188px;
+    font-family: "Righteous-Regular";
+    font-size: 72px;
+    font-weight: 400;
+    line-height: 93.6px;
+    text-align: left;
+    color: white;
+    cursor: pointer;
+    transition: .5s;
+    padding-top: 147px;
+    margin-left: 375px;
+
+    &:hover {
+        transition: .5s;
+        color: cadetblue;
+    }
+}
+
+.p1 {
+    width: 511px;
+    height: 72px;
+    font-family: "Urbanist-Medium";
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 36px;
+    text-align: left;
+    color: white;
+    transition: .5s;
+    cursor: pointer;
+    padding-top: 160px;
+    margin-left: 375px;
+
+    &:hover {
+        transition: .5s;
+        color: rgb(160, 95, 129);
+    }
+}
+
+@mixin btn_style ($top, $left) {
+    width: Hug (202px)px;
+    height: Hug (70px)px;
+    padding: 24px 40px 24px 40px;
+    background-color: #C99E71;
+    color: white;
+    cursor: pointer;
+    transition: .5s;
+    margin-top: $top ;
+    margin-left: $left;
+    font-family: "Inter_18pt-Bold";
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 21.78px;
+    text-align: left;
+    border: transparent;
+    position: relative;
+}
+
+.btn {
+    @include btn_style(114px, 375px)
+}
+
+.btn:hover {
+    transition: .5s;
+    background-color: cadetblue;
+    border-radius: 10px;
+}
+
+.play {
+    margin-left: 875px;
+    position: absolute;
+    margin-top: 100px;
+    transition: .5s;
+    cursor: pointer;
+
+    &:hover {
+
+        background-color: cadetblue;
+        border-radius: 10px;
+    }
+}

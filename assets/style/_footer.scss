@@ -1,0 +1,94 @@
+@font-face {
+    font-family: "Urbanist-Medium";
+    src: url("../fonts/Urbanist/static/Urbanist-Medium.ttf");
+}
+
+.footer_logo {
+    margin-left: 355px;
+    margin-top: 146px;
+    cursor: pointer;
+}
+
+.footer {
+    display: flex;
+    gap: 36px;
+}
+
+.item5 {
+    list-style-type: none;
+    display: flex;
+    margin-top: 166px;
+    gap: 40px;
+}
+
+.item_text5 {
+    color: white;
+    font-family: "Urbanist-Medium";
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 20px;
+    text-align: left;
+    transition: .5s;
+    cursor: pointer;
+
+    &:hover {
+        transition: .5s;
+        color: fuchsia;
+    }
+}
+
+.footer_input {
+    width: 328px;
+    height: 72px;
+    border-radius: 36px;
+    background-color: #1C1814;
+    border: transparent;
+    color: white;
+    position: absolute;
+    padding-left: 28px;
+    margin-top: 86px;
+    margin-left: 82px;
+}
+
+.footer_btn {
+    width: 48px;
+    height: 48px;
+    background-color: #C99E71;
+    transition: .5s;
+    cursor: pointer;
+    position: relative;
+    border-radius: 30px;
+    border: transparent;
+    margin-top: 98px;
+    margin-left: 345px;
+
+    &:hover {
+        transition: .5s;
+        background-color: mediumseagreen;
+        border-radius: 10px;
+    }
+}
+
+.footer_text2 {
+    width: 1920px;
+    height: 90px;
+    background-color: #1C1814;
+    margin-top: 98px;
+}
+
+.text10 {
+    font-family: "Urbanist-Medium";
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 25.2px;
+    text-align: center;
+    padding-top: 33px;
+    color: white;
+    transition: .5s;
+    cursor: pointer;
+
+    &:hover {
+        transition: .5s;
+        color: greenyellow;
+    }
+}

@@ -1,0 +1,57 @@
+@font-face {
+    font-family: "Righteous-Regular";
+    src: url("../fonts/Righteous/Righteous-Regular.ttf");
+}
+
+@font-face {
+    font-family: "Urbanist-Medium";
+    src: url("../fonts/Urbanist/static/Urbanist-Medium.ttf");
+}
+
+.guruh4 {
+    width: 1170px;
+    height: 530px;
+    background-color: #1C1814;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   margin-left: 375px;
+   margin-top: 140px;
+
+}
+
+.section_text {
+    padding-top: 0px;
+    margin-left: 160px;
+}
+
+.time5 {
+    color: white;
+    font-family: "Righteous-Regular";
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 62.4px;
+    text-align: left;
+}
+
+.p7 {
+    width: 535px;
+    height: 116px;
+    font-family: "Urbanist-Medium";
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 28.8px;
+    text-align: left;
+    padding-top: 36px;
+    color: white;
+}
+
+.btn4 {
+    @include btn_style (60px, 0px)
+}
+
+.btn4:hover {
+    transition: .5s;
+    background-color: rgb(41, 160, 150);
+    border-radius: 15px;
+}

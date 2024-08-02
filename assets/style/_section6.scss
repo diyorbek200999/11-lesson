@@ -1,0 +1,75 @@
+@font-face {
+    font-family: "Righteous-Regular";
+    src: url("../fonts/Righteous/Righteous-Regular.ttf");
+}
+
+@font-face {
+    font-family: "Urbanist-Medium";
+    src: url("../fonts/Urbanist/static/Urbanist-Medium.ttf");
+}
+
+.guruh9 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 140px;
+}
+
+.img5 {
+    width: 585px;
+    height: 652px;
+}
+
+.fox1 {
+    width: 585px;
+    height: 652px;
+    background-color: #1C1814;
+}
+
+.text {
+    font-family: "Urbanist-Medium";
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 21.6px;
+    text-align: center;
+    padding-top: 72px;
+    color: #C99E71;
+}
+
+.text1 {
+    font-family: "Righteous-Regular";
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 59.6px;
+    text-align: center;
+    color: white;
+    padding-top: 15px;
+}
+
+input {
+    width: 489px;
+    height: 64px;
+    background-color: #14110E;
+    border: transparent;
+    margin-left: 42px;
+    margin-top: 24px;
+    font-family: "Urbanist-Medium";
+font-size: 18px;
+font-weight: 600;
+line-height: 32.4px;
+text-align: left;
+color: white;
+padding-left: 20px;
+}
+
+form {
+    margin-top: 56px;
+}
+.btn11{
+    @include btn_style (56px,192px)
+}
+.btn11:hover{
+    background-color: cadetblue;
+    transition: .5s;
+    border-radius: 10px;
+}

@@ -1,0 +1,58 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
+
+
+* {
+    padding: 0;
+    margin: 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    background-color: black;
+}
+
+@mixin btn_style ($top, $left) {
+    width: Hug (210px)px;
+    height: Hug (70px)px;
+    padding: 24px 40px 24px 40px;
+    background-color: #C99E71;
+    color: white;
+    cursor: pointer;
+    -webkit-transition: .5s;
+    -o-transition: .5s;
+    transition: .5s;
+    margin-top: $top ;
+    margin-left: $left;
+    font-family: "Inter_18pt-Bold";
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 21.78px;
+    text-align: left;
+    border: transparent;
+    position: relative;
+}
+
+.container {
+    max-width: 1920px;
+    height: 7467px;
+    margin: 0 auto;
+}
+
+@import "./header";
+@import "./section";
+@import "./section1";
+@import "./section2";
+@import "./section3";
+@import "./section4";
+@import "./section5";
+@import "./section6";
+@import "./section7";
+@import "./footer"

@@ -1,0 +1,75 @@
+@font-face {
+    font-family: "Righteous-Regular";
+    src: url("../fonts/Righteous/Righteous-Regular.ttf");
+}
+
+@font-face {
+    font-family: "Urbanist-Medium";
+    src: url("../fonts/Urbanist/static/Urbanist-Medium.ttf");
+}
+
+.pech {
+    font-family: "Urbanist-Medium";
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 21.6px;
+    text-align: center;
+    color: #C99E71;
+    padding-top: 140px;
+}
+
+.pech1 {
+    font-family: "Righteous-Regular";
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 62.4px;
+    text-align: center;
+    padding-top: 15px;
+    color: white;
+}
+
+.box2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-gap: 40px;
+    align-content: center;
+    margin-top: 56px;
+    margin-left: 335px;
+    margin-right: 335px;
+
+}
+
+.row {
+    max-width: 565px;
+    height: 120px;
+    border: 1px solid gray;
+    display: flex;
+    align-items: center;
+
+    background-color: #0a0909;
+}
+
+.img3 {
+    margin-left: 24px;
+}
+
+.pech2 {
+    font-family: "Righteous-Regular";
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 29.8px;
+    text-align: left;
+    margin-left: 20px;
+    color: white;
+}
+
+.pech3 {
+    font-family: "Urbanist-Medium";
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 21.6px;
+    text-align: right;
+    margin-left: 85px;
+    color: #C99E71;
+}
